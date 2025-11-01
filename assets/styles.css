@@ -50,3 +50,21 @@ nav { display:flex; align-items:center; justify-content:space-between; height:56
   text-decoration: underline;
   text-underline-offset: 2px;
 }
+.hero {
+  position: relative;
+  height: 100vh;
+  background: url("images/background.jpg") no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+}
+
+.half-image {
+  height: 50vh;
+  background: url("images/middle-section.jpg") no-repeat center center/cover;
+  width: 100%;
+  background-attachment: fixed;
+}
