@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mijn Website</title>
+  <meta name="description" content="Een snelle, eenvoudige persoonlijke website." />
+  <link rel="icon" href="assets/favicon.ico">
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="container">
+      <div class="brand">Mijn Website</div>
+      <button id="theme-toggle" aria-label="Schakel thema">🌓</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <h1>Hallo! 👋</h1>
+      <p>Dit is je startpunt. Pas deze tekst aan in <code>index.html</code> en de stijl in <code>assets/styles.css</code>.</p>
+      <a class="btn" href="#contact">Contact</a>
+    </section>
+
+    <section class="features container">
+      <article class="card">
+        <h2>Simpel</h2>
+        <p>Pure HTML, CSS en een snufje JavaScript. Geen installatie nodig.</p>
+      </article>
+      <article class="card">
+        <h2>Snel online</h2>
+        <p>Publiceer via GitHub Pages met één workflow.</p>
+      </article>
+      <article class="card">
+        <h2>Makkelijk uitbreidbaar</h2>
+        <p>Voeg secties toe, pas kleuren aan, en zet je eigen content erin.</p>
+      </article>
+    </section>
+
+    <section id="contact" class="cta container">
+      <h2>Contact</h2>
+      <p>Mail mij op <a href="mailto:hallo@example.com">hallo@example.com</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year"></span> Mijn Website</small>
+    </div>
+  </footer>
+
+  <script src="assets/main.js" defer></script>
+</body>
+</html>
