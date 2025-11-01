@@ -68,3 +68,46 @@ nav { display:flex; align-items:center; justify-content:space-between; height:56
   width: 100%;
   background-attachment: fixed;
 }
+/* ===== Hero sectie ===== */
+.hero {
+  position: relative;
+  height: 100vh;
+  background: url("images/background.jpg") no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+}
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+}
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+  padding: 20px;
+}
+.hero h1 {
+  font-size: clamp(36px, 5vw, 64px);
+  margin-bottom: 16px;
+  letter-spacing: 2px;
+}
+.hero p {
+  font-size: clamp(18px, 2vw, 22px);
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* ===== Halverwege-afbeelding ===== */
+.half-image {
+  height: 50vh;
+  background: url("images/middle-section.jpg") no-repeat center center/cover;
+  background-attachment: fixed;
+  width: 100%;
+  margin: 64px 0;
+}
