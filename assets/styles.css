@@ -113,7 +113,7 @@ nav { display:flex; align-items:center; justify-content:space-between; height:56
 /* ===== Halverwege-afbeelding ===== */
 .half-image {
   height: 50vh;
-  background: url("images/middle-section.jpg") no-repeat center center/cover;
+  background: url("images/vecteezy_young-plant-growing-in-the-morning-light-and-green-nature_27793484.jpg") no-repeat center center/cover;
   background-attachment: fixed;
   width: 100%;
   margin: 64px 0;
